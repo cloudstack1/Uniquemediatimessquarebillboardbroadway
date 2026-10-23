@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-id="th-modified">Times Square Billboard Advertising NYC | Unique Media</title>
+    <meta name="description" content="Unique Media delivers premium Times Square billboard advertising — digital screens, 3D billboards & programmatic OOH campaigns in Manhattan, NYC. Call 212-222-9292." data-id="th-modified">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "AdvertisingAgency",
+          "@id": "https://uniquemedia.us/#business",
+          "name": "Unique Media Times Square Billboard Advertising",
+          "url": "https://uniquemedia.us/",
+          "telephone": "+12122229292",
+          "image": "https://uniquemedia.com/images/logo/logo.svg",
+          "priceRange": "$$$",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "1501 Broadway Ste 515",
+            "addressLocality": "New York",
+            "addressRegion": "NY",
+            "postalCode": "10036",
+            "addressCountry": "US"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 40.756951799999996,
+            "longitude": -73.98731029999999
+          },
+          "areaServed": ["Times Square", "Manhattan", "New York City", "NY"]
+        },
+        {
+          "@type": "Service",
+          "name": "Digital Billboard Advertising",
+          "provider": {"@id": "https://uniquemedia.us/#business"},
+          "areaServed": "Times Square, NYC"
+        },
+        {
+          "@type": "Service",
+          "name": "3D Billboard Advertising",
+          "provider": {"@id": "https://uniquemedia.us/#business"},
+          "areaServed": "Times Square, NYC"
+        },
+        {
+          "@type": "Service",
+          "name": "Programmatic DOOH Advertising",
+          "provider": {"@id": "https://uniquemedia.us/#business"},
+          "areaServed": "Times Square, NYC"
+        },
+        {
+          "@type": "Service",
+          "name": "Large Format Billboard Advertising",
+          "provider": {"@id": "https://uniquemedia.us/#business"},
+          "areaServed": "Times Square, NYC"
+        },
+        {
+          "@type": "Service",
+          "name": "OOH Brand Exposure Campaigns",
+          "provider": {"@id": "https://uniquemedia.us/#business"},
+          "areaServed": "Times Square, NYC"
+        },
+        {
+          "@type": "Service",
+          "name": "High Visibility Outdoor Advertising",
+          "provider": {"@id": "https://uniquemedia.us/#business"},
+          "areaServed": "Times Square, NYC"
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What is Times Square billboard advertising and why is it effective?",
+              "acceptedAnswer": {"@type": "Answer", "text": "Times Square billboard advertising places your brand on the digital screens and large-format displays in one of the most photographed, highest-foot-traffic locations on earth, delivering massive daily impressions to both pedestrians and global media coverage."}
+            },
+            {
+              "@type": "Question",
+              "name": "How much does it cost to advertise on a Times Square digital billboard?",
+              "acceptedAnswer": {"@type": "Answer", "text": "Pricing depends on screen location, spot length, rotation frequency and campaign duration. Call 212-222-9292 and our team will build a package that fits your budget and goals."}
+            },
+            {
+              "@type": "Question",
+              "name": "Can I run a 3D billboard campaign in Times Square?",
+              "acceptedAnswer": {"@type": "Answer", "text": "Yes. We produce eye-catching 3D billboard creative designed specifically for Times Square's anamorphic screens, giving your campaign a scroll-stopping, share-worthy visual effect."}
+            },
+            {
+              "@type": "Question",
+              "name": "Do you offer programmatic DOOH advertising?",
+              "acceptedAnswer": {"@type": "Answer", "text": "We do. Our programmatic DOOH advertising lets you buy Times Square screen time in real time, targeting specific dayparts, audiences and budgets with full performance reporting."}
+            },
+            {
+              "@type": "Question",
+              "name": "Where is Unique Media located?",
+              "acceptedAnswer": {"@type": "Answer", "text": "We're located at 1501 Broadway Ste 515, New York, NY 10036. Call 212-222-9292 to schedule a consultation."}
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            color: #1C1C1E;
+            line-height: 1.6;
+            overflow-x: hidden;
+            background: #FAFAFA;
+        }
+
+        header {
+            position: sticky;
+            top: 0;
+            background: linear-gradient(135deg, #0D0D0F 0%, #1A1A1D 100%);
+            padding: 1rem 2rem;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
+            z-index: 1000;
+            animation: slideDown 0.6s ease-out;
+            border-bottom: 2px solid #D4AF37;
+        }
+
+        @keyframes slideDown {
+            from { transform: translateY(-100%); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        .header-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .logo-section {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .logo {
+            width: 64px;
+            height: 64px;
+            object-fit: contain;
+            filter: drop-shadow(0 4px 10px rgba(212, 175, 55, 0.4));
+        }
+
+        .logo-fallback {
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #D4AF37 0%, #B8860B 100%);
+            color: #0D0D0F;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 800;
+            font-size: 1.4rem;
+            letter-spacing: 1px;
+            box-shadow: 0 8px 20px rgba(212, 175, 55, 0.4);
+        }
+
+        .brand-name {
+            color: #FAFAFA;
+            font-size: 1.4rem;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+        }
+
+        .header-buttons {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+        }
+
+        .btn-header {
+            padding: 0.8rem 1.8rem;
+            border: none;
+            border-radius: 50px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .btn-phone {
+            background: linear-gradient(135deg, #D4AF37 0%, #B8860B 100%);
+            color: #0D0D0F;
+            box-shadow: 0 4px 15px rgba(212, 175, 55, 0.4);
+        }
+
+        .btn-phone:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 25px rgba(212, 175, 55, 0.6);
+        }
+
+        .btn-website {
+            background: transparent;
+            color: #D4AF37;
+            border: 2px solid #D4AF37;
+        }
+
+        .btn-website:hover {
+            background: #D4AF37;
+            color: #0D0D0F;
+            transform: translateY(-2px);
+        }
+
+        .hero {
+            position: relative;
+            background: linear-gradient(135deg, #0D0D0F 0%, #1F1A10 55%, #2A1F0A 100%);
+            padding: 8rem 2rem 6rem;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background:
+                radial-gradient(circle at 20% 50%, rgba(212, 175, 55, 0.14) 0%, transparent 50%),
+                radial-gradient(circle at 80% 50%, rgba(230, 57, 70, 0.1) 0%, transparent 50%);
+            animation: shimmer 8s ease-in-out infinite;
+        }
+
+        @keyframes shimmer {
+            0%, 100% { opacity: 0.3; }
+            50% { opacity: 0.65; }
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            max-width: 1000px;
+            margin: 0 auto;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .hero h1 {
+            font-size: 3.4rem;
+            color: #FAFAFA;
+            margin-bottom: 1.5rem;
+            font-weight: 700;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+            line-height: 1.2;
+        }
+
+        .hero-subheading {
+            font-size: 1.4rem;
+            color: #D4AF37;
+            margin-bottom: 3rem;
+            font-weight: 300;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .hero-cta {
+            display: flex;
+            gap: 1.5rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn-hero {
+            padding: 1.2rem 3rem;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #D4AF37 0%, #B8860B 100%);
+            color: #0D0D0F;
+            box-shadow: 0 6px 25px rgba(212, 175, 55, 0.5);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 35px rgba(212, 175, 55, 0.7);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: #D4AF37;
+            border: 2px solid #D4AF37;
+        }
+
+        .btn-secondary:hover {
+            background: rgba(212, 175, 55, 0.2);
+            transform: translateY(-3px);
+        }
+
+        section {
+            padding: 5rem 2rem;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            font-size: 2.6rem;
+            color: #0D0D0F;
+            text-align: center;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+
+        .section-subtitle {
+            font-size: 1.15rem;
+            color: #555555;
+            text-align: center;
+            margin-bottom: 4rem;
+            font-family: 'Arial', sans-serif;
+            font-weight: 300;
+        }
+
+        .about-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: center;
+            margin-bottom: 3rem;
+            animation: fadeIn 1s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .about-text {
+            font-size: 1.05rem;
+            line-height: 1.8;
+            color: #1C1C1E;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .about-text p {
+            margin-bottom: 1.5rem;
+        }
+
+        .about-text a {
+            color: #B8860B;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+
+        .about-text a:hover {
+            color: #D4AF37;
+        }
+
+        .about-images {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+        }
+
+        .about-image {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(13, 13, 15, 0.25);
+            transition: all 0.3s ease;
+        }
+
+        .about-image:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(13, 13, 15, 0.35);
+        }
+
+        .feature-image-section {
+            padding: 0;
+            margin: 4rem 0;
+        }
+
+        .feature-image {
+            width: 100%;
+            height: 460px;
+            object-fit: cover;
+            box-shadow: 0 10px 40px rgba(13, 13, 15, 0.25);
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .service-card {
+            background: linear-gradient(135deg, #FFFFFF 0%, #FAFAFA 100%);
+            padding: 2.5rem;
+            border-radius: 20px;
+            box-shadow: 0 8px 25px rgba(13, 13, 15, 0.08);
+            transition: all 0.4s ease;
+            border: 1px solid rgba(212, 175, 55, 0.25);
+            animation: fadeInUp 0.6s ease-out;
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 45px rgba(13, 13, 15, 0.18);
+            border-color: #D4AF37;
+        }
+
+        .service-card h3 {
+            font-size: 1.5rem;
+            color: #0D0D0F;
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        .service-card p {
+            font-size: 1rem;
+            color: #2C2C2C;
+            line-height: 1.7;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .service-card a {
+            color: #B8860B;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+
+        .service-card a:hover {
+            color: #D4AF37;
+        }
+
+        .blog-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 3rem;
+            margin-top: 3rem;
+        }
+
+        .blog-article {
+            background: #FFFFFF;
+            padding: 3rem;
+            border-radius: 20px;
+            box-shadow: 0 8px 25px rgba(13, 13, 15, 0.08);
+            border-left: 4px solid #D4AF37;
+            transition: all 0.3s ease;
+        }
+
+        .blog-article:hover {
+            box-shadow: 0 12px 35px rgba(13, 13, 15, 0.15);
+            transform: translateX(5px);
+        }
+
+        .blog-article h3 {
+            font-size: 1.7rem;
+            color: #0D0D0F;
+            margin-bottom: 1.5rem;
+            font-weight: 600;
+        }
+
+        .blog-article p {
+            font-size: 1rem;
+            color: #2C2C2C;
+            line-height: 1.8;
+            margin-bottom: 1rem;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .blog-article a {
+            color: #B8860B;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+
+        .blog-article a:hover {
+            color: #D4AF37;
+        }
+
+        .faq-container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            background: #FFFFFF;
+            margin-bottom: 1.5rem;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(13, 13, 15, 0.08);
+            transition: all 0.3s ease;
+        }
+
+        .faq-item:hover {
+            box-shadow: 0 6px 25px rgba(13, 13, 15, 0.14);
+        }
+
+        .faq-question {
+            background: linear-gradient(135deg, #0D0D0F 0%, #1A1A1D 100%);
+            color: #FAFAFA;
+            padding: 1.5rem 2rem;
+            cursor: pointer;
+            font-size: 1.25rem;
+            font-weight: 600;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.3s ease;
+        }
+
+        .faq-question:hover {
+            background: linear-gradient(135deg, #1A1A1D 0%, #0D0D0F 100%);
+        }
+
+        .faq-question::after {
+            content: '+';
+            font-size: 2rem;
+            color: #D4AF37;
+            transition: transform 0.3s ease;
+        }
+
+        .faq-question.active::after {
+            transform: rotate(45deg);
+        }
+
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease, padding 0.4s ease;
+            padding: 0 2rem;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .faq-answer.active {
+            max-height: 500px;
+            padding: 1.5rem 2rem;
+        }
+
+        .faq-answer p {
+            color: #2C2C2C;
+            line-height: 1.7;
+        }
+
+        .location-content {
+            width: 100%;
+            max-width: 100%;
+        }
+
+        .map-container {
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 8px 25px rgba(13, 13, 15, 0.2);
+            height: 500px;
+            width: 100%;
+        }
+
+        .map-container iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        footer {
+            background: linear-gradient(135deg, #0D0D0F 0%, #19140A 100%);
+            color: #FAFAFA;
+            padding: 4rem 2rem 2rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        footer::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background:
+                radial-gradient(circle at 20% 80%, rgba(212, 175, 55, 0.12) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(230, 57, 70, 0.08) 0%, transparent 50%);
+            pointer-events: none;
+        }
+
+        .footer-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 3rem;
+            margin-bottom: 2rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .footer-section {
+            text-align: center;
+        }
+
+        .footer-section h3 {
+            color: #D4AF37;
+            font-size: 1.4rem;
+            margin-bottom: 1.5rem;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+
+        .footer-section p,
+        .footer-section a {
+            color: #FAFAFA;
+            text-decoration: none;
+            line-height: 2;
+            font-family: 'Arial', sans-serif;
+            display: block;
+            transition: all 0.3s ease;
+            margin: 0.5rem 0;
+        }
+
+        .footer-section a:hover {
+            color: #D4AF37;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(212, 175, 55, 0.3);
+            color: #D4AF37;
+            font-family: 'Arial', sans-serif;
+            position: relative;
+            z-index: 1;
+            font-size: 0.95rem;
+        }
+
+        .tags-wrap {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.8rem;
+            justify-content: center;
+            margin-top: 2.5rem;
+        }
+
+        .tag-link {
+            background: #FFFFFF;
+            border: 1px solid rgba(212, 175, 55, 0.4);
+            color: #1C1C1E;
+            text-decoration: none;
+            padding: 0.6rem 1.3rem;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            font-family: 'Arial', sans-serif;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .tag-link:hover {
+            background: #D4AF37;
+            color: #0D0D0F;
+            border-color: #D4AF37;
+            transform: translateY(-2px);
+        }
+
+        @media (max-width: 1024px) {
+            .about-content,
+            .location-content {
+                grid-template-columns: 1fr;
+            }
+
+            .services-grid,
+            .blog-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2.3rem; }
+            .hero-subheading { font-size: 1.1rem; }
+            .section-title { font-size: 1.9rem; }
+            .header-content { flex-direction: column; text-align: center; }
+            .hero-cta { flex-direction: column; }
+            .about-images { grid-template-columns: 1fr; }
+        }
+
+        .animate-on-scroll {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.6s ease-out;
+        }
+
+        .animate-on-scroll.animated {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+<meta property="og:title" content="Times Square Billboard Advertising NYC | Unique Media" data-id="th-modified" ><meta property="og:description" content="Unique Media delivers premium Times Square billboard advertising — digital screens, 3D billboards & programmatic OOH campaigns in Manhattan, NYC. Call 212-222-9292." data-id="th-modified" ><meta property="og:image" content="https://tiiny.host/assets/logo-purple-bg.png" data-id="th-modified" ><meta property="og:image:width" content="1501" data-id="th-modified" ><meta property="og:image:height" content="1501" data-id="th-modified" ><meta property="og:image:type" content="image/png" data-id="th-modified" ><meta property="og:url" content="https://uniquemediatimessquarebillboardbroadway.tiiny.site/" data-id="th-modified" ><meta property="og:type" content="website" data-id="th-modified" ><script defer data-domain="uniquemediatimessquarebillboardbroadway.tiiny.site" src="https://analytics.tiiny.net/js/plausible.js"></script><script type="text/javascript" src="https://tiiny.host/ad-script.js"></script></head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <div class="logo-section">
+                <img src="https://uniquemedia.com/images/logo/logo.svg" alt="Unique Media Times Square Billboard Advertising Logo" class="logo" onerror="this.outerHTML='&lt;div class=&quot;logo-fallback&quot;&gt;UM&lt;/div&gt;'">
+                <div class="brand-name">Unique Media</div>
+            </div>
+            <div class="header-buttons">
+                <a href="tel:212-222-9292" class="btn-header btn-phone">Call: 212-222-9292</a>
+                <a href="https://uniquemedia.us/" target="_blank" class="btn-header btn-website">Visit Website</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Premium <strong>Times Square Billboard Advertising</strong> in New York, NY</h1>
+            <p class="hero-subheading">Digital Screens, 3D Billboards & Programmatic OOH Campaigns in the Heart of Manhattan</p>
+            <div class="hero-cta">
+                <a href="tel:212-222-9292" class="btn-hero btn-primary">Book Your Campaign</a>
+                <a href="#services" class="btn-hero btn-secondary">Explore Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="animate-on-scroll">
+        <h2 class="section-title">Your Brand, Center Stage in Times Square</h2>
+        <p class="section-subtitle">Iconic Digital Billboards. Unmatched Brand Exposure.</p>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Welcome to <a href="https://uniquemedia.us/" target="_blank"><strong>Unique Media</strong></a>, the team behind some of the most eye-catching <a href="https://uniquemedia.us/" target="_blank"><strong>Times Square Digital Screen</strong></a> placements in New York City. We put your brand in front of the millions of people who pass through Times Square every single day.</p>
+                <p>Our agency specializes in <strong>Times Square OOH Advertising</strong>, from towering digital billboards to show-stopping 3D screen creative. Whether you're launching a new product, building <strong>Times Square Brand Exposure</strong>, or running a nationwide campaign that needs a flagship moment, we design and place the media that gets noticed.</p>
+                <p>We combine <strong>Times Square Large Format Advertising</strong> with modern <strong>Times Square Programmatic Ads</strong> buying, so your campaign reaches the right audience at the right moment — with full transparency and real performance data behind every placement.</p>
+                <p>Located conveniently at <strong>1501 Broadway Ste 515</strong>, we serve brands and agencies throughout Manhattan, NYC and beyond with premium outdoor advertising solutions built for maximum impact.</p>
+            </div>
+            <div class="about-images">
+                <img src="https://images.unsplash.com/photo-1783165348561-59cad221ab2c?w=600&h=400&fit=crop" alt="Vibrant digital billboards illuminating Times Square buildings" class="about-image" onerror="this.src='https://images.unsplash.com/photo-1774544311409-bebfbf4632b9?w=600&h=400&fit=crop'">
+                <img src="https://images.unsplash.com/photo-1766228053354-7d56b8a1c5a9?w=600&h=400&fit=crop" alt="Vibrant Times Square billboards at night" class="about-image" onerror="this.src='https://images.unsplash.com/photo-1560196327-cca0a731441b?w=600&h=400&fit=crop'">
+            </div>
+        </div>
+    </section>
+
+    <!-- Feature Image Section -->
+    <div class="feature-image-section">
+        <img src="https://images.unsplash.com/photo-1774544311409-bebfbf4632b9?w=1600&h=700&fit=crop" alt="Illuminated billboards across the Times Square cityscape at night" class="feature-image" onerror="this.src='https://images.unsplash.com/photo-1783165348561-59cad221ab2c?w=1600&h=700&fit=crop'">
+    </div>
+
+    <!-- Services Section -->
+    <section id="services" class="animate-on-scroll">
+        <h2 class="section-title">Times Square Advertising Services</h2>
+        <p class="section-subtitle">OOH Solutions Built for Maximum Visibility</p>
+        <div class="services-grid">
+            <div class="service-card">
+                <h3>Digital Billboard Advertising</h3>
+                <p>Get your brand on premium <a href="https://uniquemedia.us/" target="_blank"><strong>Times Square Digital Screen</strong></a> placements, with rotating spots that put you in front of massive daily foot traffic and global media coverage.</p>
+            </div>
+            <div class="service-card">
+                <h3>3D Billboard Advertising</h3>
+                <p>Our <strong>Times Square 3D Screen</strong> creative uses anamorphic design to make products and brand moments leap off the display, generating the scroll-stopping content people share online.</p>
+            </div>
+            <div class="service-card">
+                <h3>Programmatic DOOH Advertising</h3>
+                <p>Buy and manage <strong>Times Square Programmatic Ads</strong> in real time, targeting specific dayparts and audiences with transparent reporting on every impression delivered.</p>
+            </div>
+            <div class="service-card">
+                <h3>Large Format Billboard Advertising</h3>
+                <p>Our <strong>Times Square Large Format Advertising</strong> placements dominate the skyline, giving your campaign the scale and prestige that smaller media simply can't match.</p>
+            </div>
+            <div class="service-card">
+                <h3>OOH Brand Exposure Campaigns</h3>
+                <p>We build full <a href="https://uniquemedia.us/" target="_blank"><strong>Times Square Outdoor Advertising</strong></a> campaigns designed to maximize <strong>Times Square Brand Exposure</strong> across every major screen location in the district.</p>
+            </div>
+            <div class="service-card">
+                <h3>High Visibility Outdoor Advertising</h3>
+                <p>From concept to placement, our <strong>Times Square High Visibility Advertising</strong> packages are tailored to brands that want to make a statement in the world's busiest intersection.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Related Searches -->
+    <section class="animate-on-scroll" style="padding-top:0;">
+        <h2 class="section-title" style="font-size:1.8rem;">Related Searches</h2>
+        <div class="tags-wrap">
+            <a class="tag-link" href="https://www.google.com/maps?cid=9473034566578330692" target="_blank">Times Square Billboard Advertising</a>
+            <a class="tag-link" href="https://uniquemedia.us/" target="_blank">Times Square Digital Screen</a>
+            <a class="tag-link" href="https://www.google.com/maps?cid=9473034566578330692" target="_blank">Times Square OOH Advertising</a>
+            <a class="tag-link" href="https://uniquemedia.us/" target="_blank">Times Square Brand Exposure</a>
+            <a class="tag-link" href="https://www.google.com/maps?cid=9473034566578330692" target="_blank">Times Square Large Format Advertising</a>
+            <a class="tag-link" href="https://uniquemedia.us/" target="_blank">Times Square Programmatic Ads</a>
+            <a class="tag-link" href="https://www.google.com/maps?cid=9473034566578330692" target="_blank">Times Square 3D Screen</a>
+            <a class="tag-link" href="https://uniquemedia.us/" target="_blank">Times Square Outdoor Advertising</a>
+            <a class="tag-link" href="https://www.google.com/maps?cid=9473034566578330692" target="_blank">Times Square Digital Billboard</a>
+            <a class="tag-link" href="https://uniquemedia.us/" target="_blank">Times Square High Visibility Advertising</a>
+            <a class="tag-link" href="https://www.google.com/maps?cid=9473034566578330692" target="_blank">Manhattan</a>
+            <a class="tag-link" href="https://uniquemedia.us/" target="_blank">NYC</a>
+            <a class="tag-link" href="https://www.google.com/maps?cid=9473034566578330692" target="_blank">NY</a>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="animate-on-scroll">
+        <h2 class="section-title">Advertising Insights</h2>
+        <p class="section-subtitle">What Brands Should Know About Times Square OOH</p>
+        <div class="blog-grid">
+            <article class="blog-article">
+                <h3>Why Times Square Billboard Advertising Delivers Unmatched Brand Exposure</h3>
+                <p>Few advertising locations in the world rival the sheer volume of eyes that pass through Times Square daily. As a leading provider of <a href="https://uniquemedia.us/" target="_blank"><strong>Times Square Billboard Advertising</strong></a>, we see firsthand how a single well-placed digital spot can generate brand recall that outlasts the campaign itself.</p>
+                <p>Unlike many media channels, Times Square advertising is inherently social — tourists and locals alike photograph and share the screens constantly, extending your reach far beyond the physical foot traffic walking through the intersection each day.</p>
+                <p>For brands looking to make a statement, <strong>Times Square OOH Advertising</strong> offers a combination of scale, prestige and cultural relevance that's difficult to replicate anywhere else.</p>
+                <p>Ready to put your brand in the spotlight? Call <strong>212-222-9292</strong> to discuss available placements and pricing.</p>
+            </article>
+            <article class="blog-article">
+                <h3>Digital vs Traditional Billboards: What Works Best in Times Square</h3>
+                <p>Brands evaluating a <a href="https://uniquemedia.us/" target="_blank"><strong>Times Square Digital Billboard</strong></a> often ask how it compares to static formats. The short answer: digital wins on flexibility, frequency and targeting, while still delivering the same massive physical footprint.</p>
+                <p>With digital screens, your creative can rotate throughout the day, adapt messaging by daypart, and integrate with <strong>Times Square Programmatic Ads</strong> buying so you only pay for the impressions that matter most to your campaign goals.</p>
+                <p>Traditional large-format placements still have their place for long-running brand campaigns, but most of our clients choose digital for the control and measurability it provides.</p>
+                <p>Our team can help you decide which format — or combination of both — fits your objectives and budget.</p>
+            </article>
+            <article class="blog-article">
+                <h3>How 3D Billboards Are Transforming OOH Advertising in NYC</h3>
+                <p>The newest wave of <strong>Times Square 3D Screen</strong> creative uses anamorphic design techniques to make products, logos and brand moments appear to leap off the display and into three-dimensional space.</p>
+                <p>These campaigns are built specifically for <strong>Times Square Outdoor Advertising</strong> screens with the geometry to support the illusion, and they consistently outperform flat creative in both attention and social sharing.</p>
+                <p>If your brand wants to stand out in a district full of bright screens, a 3D creative concept is one of the most effective ways to do it.</p>
+                <p>Contact <a href="https://uniquemedia.us/" target="_blank"><strong>Unique Media</strong></a> to explore 3D billboard options for your next campaign.</p>
+            </article>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="animate-on-scroll">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-subtitle">Your Questions Answered</p>
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question">What is Times Square billboard advertising and why is it effective?</div>
+                <div class="faq-answer">
+                    <p><strong>Times Square Billboard Advertising</strong> places your brand on the digital screens and large-format displays in one of the most photographed, highest-foot-traffic locations on earth. It delivers massive daily impressions to pedestrians, tourists and global media coverage, giving your campaign reach and prestige that's hard to match anywhere else.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">How much does it cost to advertise on a Times Square digital billboard?</div>
+                <div class="faq-answer">
+                    <p>Pricing depends on screen location, spot length, rotation frequency and campaign duration. Call <strong><a href="tel:212-222-9292" style="color: #0D0D0F;">212-222-9292</a></strong> and our team will build a package that fits your budget and campaign goals, whether you need a single flagship spot or an ongoing rotation.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Can I run a 3D billboard campaign in Times Square?</div>
+                <div class="faq-answer">
+                    <p>Yes. We produce eye-catching <strong>Times Square 3D Screen</strong> creative designed specifically for Times Square's anamorphic displays, giving your campaign a scroll-stopping, share-worthy visual effect that stands out from standard flat creative.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Do you offer programmatic DOOH advertising?</div>
+                <div class="faq-answer">
+                    <p>We do. Our <strong>Times Square Programmatic Ads</strong> solutions let you buy screen time in real time, targeting specific dayparts, audiences and budgets, with full performance reporting so you can see exactly how your campaign is performing.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Where is Unique Media located?</div>
+                <div class="faq-answer">
+                    <p>We're located at <strong>1501 Broadway Ste 515, New York, NY 10036</strong>. Call <strong><a href="tel:212-222-9292" style="color: #0D0D0F;">212-222-9292</a></strong> or visit <strong><a href="https://uniquemedia.us/" style="color: #0D0D0F;">uniquemedia.us</a></strong> to schedule a consultation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="location" class="animate-on-scroll">
+        <h2 class="section-title">Visit Unique Media in Manhattan</h2>
+        <p class="section-subtitle">Located steps from Times Square, our team is ready to put your brand on the big screens of New York City.</p>
+        <div class="location-content">
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.230635632766!2d-73.98731029999999!3d40.756951799999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259db66cf5e2b%3A0x8376fabf7de5dc44!2sUnique%20Media%20Times%20Square%20Billboard%20Advertising!5e0!3m2!1sen!2s!4v1792759088504!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Information</h3>
+                <p><strong>Unique Media Times Square Billboard Advertising</strong></p>
+                <p>1501 Broadway Ste 515</p>
+                <p>New York, NY 10036</p>
+                <p><a href="tel:212-222-9292">212-222-9292</a></p>
+                <p><a href="https://uniquemedia.us/" target="_blank">uniquemedia.us</a></p>
+            </div>
+            <div class="footer-section">
+                <h3>Our Services</h3>
+                <a href="#services">Digital Billboard Advertising</a>
+                <a href="#services">3D Billboard Advertising</a>
+                <a href="#services">Programmatic DOOH Advertising</a>
+                <a href="#services">Large Format Billboard Advertising</a>
+                <a href="#services">OOH Brand Exposure Campaigns</a>
+                <a href="#services">High Visibility Outdoor Advertising</a>
+            </div>
+            <div class="footer-section">
+                <h3>About Unique Media</h3>
+                <p>Unique Media is Manhattan's go-to agency for Times Square billboard advertising, placing brands on the most iconic digital screens in New York City with precision and transparency.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Unique Media Times Square Billboard Advertising. All Rights Reserved. | Premium OOH Advertising in NYC</p>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const answer = question.nextElementSibling;
+                const isActive = answer.classList.contains('active');
+
+                document.querySelectorAll('.faq-answer').forEach(a => a.classList.remove('active'));
+                document.querySelectorAll('.faq-question').forEach(q => q.classList.remove('active'));
+
+                if (!isActive) {
+                    answer.classList.add('active');
+                    question.classList.add('active');
+                }
+            });
+        });
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+
+        const observerOptions = { threshold: 0.1, rootMargin: '0px 0px -50px 0px' };
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animated');
+                }
+            });
+        }, observerOptions);
+        document.querySelectorAll('.animate-on-scroll').forEach(el => observer.observe(el));
+
+        document.querySelectorAll('.service-card').forEach((card, index) => {
+            card.style.animationDelay = `${index * 0.1}s`;
+        });
+    </script>
+</body>
+</html>
